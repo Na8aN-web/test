@@ -1,0 +1,47 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orange ;
+  }
+  .App h1{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .box {
+    text-align: left;
+    border: black ridge 1px;
+    width: 50%;
+    margin: 20px;
+    background-color: white;
+  }
+  .search-bar{
+    padding: 15px;
+    background-color: #f4f4f4;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+  }
+  .search-bar:focus{
+    outline: none;
+    border: none;
+  }
+  .container-image{
+    width: 100%;
+  }
+  .container-paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 10px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .box {
+      text-align: left;
+      border: black ridge 1px;
+      width: 90%;
+      margin: 10px;
+      background-color: white;
+    }
+  }
