@@ -3,7 +3,7 @@ import './css/styles.css';
 
 function App() {
 
-  const url = 'http://zoo-animal-api.herokuapp.com/animals/rand/10';
+  const url = 'https://zoo-animal-api.herokuapp.com/animals/rand/10';
   const [peopleData, setPeopleData] = React.useState([]);
   const [query, setQuery] = React.useState("");
   const [loading, setLoading] = React.useState(true);
